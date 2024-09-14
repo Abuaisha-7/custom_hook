@@ -13,7 +13,7 @@ const FetchData = () => {
         {data &&
           data.map((e) => (
             <>
-              <li className="list_data">
+              <li className="list_data" >
                 <h3>{e.name}</h3>
                 <p>
                   <strong>Importance: </strong>
